@@ -9,7 +9,17 @@
         </a>
         <a @click="$auth.logout()" class="button--grey"> Sign out </a>
         <p>
+          this.$auth.user
           {{ this.$auth.user }}
+        </p>
+        <p>
+          this.$auth.loggedIn
+
+          {{ this.$auth.loggedIn }}
+        </p>
+        <p>
+          this.$auth.strategy.token.get()
+          {{ this.$auth.strategy.token.get() }}
         </p>
       </div>
     </div>

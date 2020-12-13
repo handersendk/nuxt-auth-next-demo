@@ -43,7 +43,6 @@ export default {
             "https://wakkacorp.b2clogin.com/wakkacorp.onmicrosoft.com/B2C_1_signupsignin1/oauth2/v2.0/authorize",
           token: "code",
           userInfo: "http://localhost:3000/api/userinfo"
-          // logout: "https://example.com/logout"
         },
         token: {
           property: "access_token",
@@ -57,17 +56,11 @@ export default {
         responseType: "token",
         grantType: "authorization_code",
         accessType: "offline",
-        // redirectUri: "http://localhost:3000/auth",
-        // logoutRedirectUri: undefined,
         clientId: "4ce93040-e1b6-4652-86cd-dc10aaf697fc",
         scope: [
           "https://wakkacorp.onmicrosoft.com/4ce93040-e1b6-4652-86cd-dc10aaf697fc/calender-read"
         ],
         state: "UNIQUE_AND_NON_GUESSABLE"
-        // codeChallengeMethod: "",
-        // responseMode: "",
-        // acrValues: ""
-        // autoLogout: false
       }
     }
   }
