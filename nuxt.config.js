@@ -57,7 +57,7 @@ export default {
         responseType: "token",
         grantType: "authorization_code",
         accessType: "offline",
-        redirectUri: "http://localhost:3000/auth",
+        // redirectUri: "http://localhost:3000/auth",
         // logoutRedirectUri: undefined,
         clientId: "4ce93040-e1b6-4652-86cd-dc10aaf697fc",
         scope: [
